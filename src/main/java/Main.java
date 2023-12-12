@@ -114,7 +114,7 @@ public class Main extends JFrame {
         exportPDF.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                SessionModel.exportPDF();
             }
         });
 
